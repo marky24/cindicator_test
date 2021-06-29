@@ -1,4 +1,6 @@
-# Cindicator test task 
+# Cindicator test task
+
+[![Build Status](https://travis-ci.com/marky24/cindicator_test.svg?branch=main)](https://travis-ci.com/github/marky24/cindicator_test) 
 Test task for Cindicator company. Junior data engineer position  
 ![Gifochka](https://media.giphy.com/media/zk58NdoX6xZfLdR8kI/giphy.gif)
 ## Installing
