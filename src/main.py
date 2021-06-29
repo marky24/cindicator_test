@@ -5,7 +5,6 @@ from threading import Thread
 import time
 import ast
 from datetime import datetime
-import streamlit as st
 import pandas as pd
 import mplfinance as mpf
 import matplotlib.animation as animation

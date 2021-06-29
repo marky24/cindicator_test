@@ -1,7 +1,9 @@
 FROM python:3.8
 
-ADD main.py .
+ADD src/main.py .
 
-RUN pip install websocket-client streamlit pandas mplfinance matplotlib configparser
+COPY requirements.txt /tmp/
+WORKDIR /tmp
+RUN pip install -r requirements.txt
 
-CMD ["python", "./main.py"]
+CMD ["python", "./src/main.py"]
